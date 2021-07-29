@@ -1,0 +1,21 @@
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 50px;
+    align-items: stretch;
+    text-align: center;
+  }
+  
+  
+  .grid > article img {
+    max-width: 100%;
+  }
+  
+  .grid .text {
+    padding: 30px;
+  }
+  .text{
+    text-align: center !important;
+    color: #003F63;
+  }

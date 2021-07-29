@@ -1,0 +1,9 @@
+.col,
+.col-8,
+.col-4 {
+padding: 1rem;
+background-color: #fff;
+border: 2px solid #fff;
+color: #fff;
+text-align: center;
+}

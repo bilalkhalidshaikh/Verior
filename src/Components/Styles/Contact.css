@@ -1,0 +1,15 @@
+.contact {
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #333 !important;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../../Images/contact.jpg") no-repeat center center;
+    background-blend-mode: soft-light;
+  background-size: cover;
+  padding-top: 10%;
+}
