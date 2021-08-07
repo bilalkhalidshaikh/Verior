@@ -3,7 +3,7 @@ import AppDeve from "./../illustrations/team-work.svg";
 import WebDeve from "../illustrations/analytics.svg";
 import UiUx from "../illustrations/creativity.svg";
 import Digi from "../illustrations/newsletter.svg";
-import {Hidden} from "@material-ui/core"
+import { Hidden } from "@material-ui/core";
 
 export default function WhatWeDo() {
   return (
@@ -23,7 +23,7 @@ export default function WhatWeDo() {
             <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t" />
           </div>
           <div></div>
-          
+
           <div className="flex flex-wrap flex-col-reverse sm:flex-row">
             <div className="w-full sm:w-1/2 p-6 mt-6">
               <picture
@@ -33,7 +33,7 @@ export default function WhatWeDo() {
                 <img
                   src={AppDeve}
                   alt=""
-                  style={{width:"20em",height:"20em"}}
+                  style={{ width: "20em", height: "20em" }}
                   className="absolute inset-0 w-full h-full object-cover"
                 />
               </picture>
@@ -49,7 +49,14 @@ export default function WhatWeDo() {
                 >
                   App Development
                 </h3>
-                <p className=" mb-8 " style={{ textAlign: "left" ,fontFamily:'Libre Baskerville',color:"rgb(180, 180, 180)"}}>
+                <p
+                  className=" mb-8 "
+                  style={{
+                    textAlign: "left",
+                    fontFamily: "Libre Baskerville",
+                    color: "rgb(180, 180, 180)",
+                  }}
+                >
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -68,7 +75,7 @@ export default function WhatWeDo() {
               </div>
             </div>
           </div>
-   
+
           <div className="flex flex-wrap">
             <div className="w-5/6 sm:w-1/2 p-6 ">
               <h3
@@ -80,7 +87,14 @@ export default function WhatWeDo() {
               >
                 Web Development
               </h3>
-              <p className="mb-8" style={{ textAlign: "left",fontFamily:'Libre Baskerville',color:"rgb(180, 180, 180)" }}>
+              <p
+                className="mb-8"
+                style={{
+                  textAlign: "left",
+                  fontFamily: "Libre Baskerville",
+                  color: "rgb(180, 180, 180)",
+                }}
+              >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 at ipsum eu nunc commodo posuere et sit amet ligula. Lorem ipsum
                 dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu
@@ -97,39 +111,40 @@ export default function WhatWeDo() {
                 <br />
               </p>
             </div>
-<Hidden only="xs">
-
-            <div className="w-full sm:w-1/2 p-6" >
-              <picture
-                className="relative block w-full h-0 pb overflow-hidden "
-                style={{ paddingTop: "75%" }}
-              >
-                <img
-                  src={WebDeve}
-                  alt=""
-                  className="absolute inset-0 object-cover"
-                  style={{width:"20em",height:"20em", marginLeft:"10em"}}
-                />
-              </picture>
-            </div>
-</Hidden>
-<Hidden only="lg">
-
-            <div className="w-full sm:w-1/2 p-6">
-              <picture
-                className="relative block w-full h-0 pb overflow-hidden "
-                style={{ paddingTop: "75%" }}
-              >
-                <img
-                  src={WebDeve}
-                  alt=""
-                  className="absolute inset-0 object-cover"
-                  style={{width:"20em",height:"20em"}}
-                />
-              </picture>
-            </div>
-</Hidden>
-       
+            <Hidden only="xs">
+              <div className="w-full sm:w-1/2 p-6">
+                <picture
+                  className="relative block w-full h-0 pb overflow-hidden "
+                  style={{ paddingTop: "75%" }}
+                >
+                  <img
+                    src={WebDeve}
+                    alt=""
+                    className="absolute inset-0 object-cover"
+                    style={{
+                      width: "20em",
+                      height: "20em",
+                      marginLeft: "10em",
+                    }}
+                  />
+                </picture>
+              </div>
+            </Hidden>
+            <Hidden only="lg">
+              <div className="w-full sm:w-1/2 p-6">
+                <picture
+                  className="relative block w-full h-0 pb overflow-hidden "
+                  style={{ paddingTop: "75%" }}
+                >
+                  <img
+                    src={WebDeve}
+                    alt=""
+                    className="absolute inset-0 object-cover"
+                    style={{ width: "20em", height: "20em" }}
+                  />
+                </picture>
+              </div>
+            </Hidden>
           </div>
           <div className="flex flex-wrap flex-col-reverse sm:flex-row">
             <div className="w-full sm:w-1/2 p-6 mt-6">
@@ -141,7 +156,7 @@ export default function WhatWeDo() {
                   src={UiUx}
                   alt=""
                   className="absolute inset-0 w-full h-full object-cover"
-                  style={{width:"20em",height:"20em"}}
+                  style={{ width: "20em", height: "20em" }}
                 />
               </picture>
             </div>
@@ -156,7 +171,14 @@ export default function WhatWeDo() {
                 >
                   UI/UX DESIGNING
                 </h3>
-                <p className="mb-8" style={{ textAlign: "left" ,fontFamily:'Libre Baskerville',color:"rgb(180, 180, 180)"}}>
+                <p
+                  className="mb-8"
+                  style={{
+                    textAlign: "left",
+                    fontFamily: "Libre Baskerville",
+                    color: "rgb(180, 180, 180)",
+                  }}
+                >
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -187,7 +209,14 @@ export default function WhatWeDo() {
               >
                 DIGITAL MARKETING
               </h3>
-              <p className=" mb-8" style={{ textAlign: "left" ,fontFamily:'Libre Baskerville',color:"rgb(180, 180, 180)"}}>
+              <p
+                className=" mb-8"
+                style={{
+                  textAlign: "left",
+                  fontFamily: "Libre Baskerville",
+                  color: "rgb(180, 180, 180)",
+                }}
+              >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 at ipsum eu nunc commodo posuere et sit amet ligula. Lorem ipsum
                 dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu
@@ -205,42 +234,41 @@ export default function WhatWeDo() {
               </p>
             </div>
 
-                <Hidden only="xs">
-
-            <div className="w-full sm:w-1/2 p-6">
-              <picture
-                className="relative block w-full h-0 pb  overflow-hidden"
-                style={{ paddingTop: "75%" }}
-              >
-                <img
-                  src={Digi}
-                  alt=""
-                  className="absolute inset-0 w-full h-full object-cover"
-                  style={{width:"20em",height:"20em",marginLeft:"10em"}}
-                />
-              </picture>
-            </div>
-                </Hidden>
-                <Hidden only="lg">
-
-            <div className="w-full sm:w-1/2 p-6">
-              <picture
-                className="relative block w-full h-0 pb  overflow-hidden"
-                style={{ paddingTop: "75%" }}
-              >
-                <img
-                  src={Digi}
-                  alt=""
-                  className="absolute inset-0 w-full h-full object-cover"
-                  style={{width:"20em",height:"20em"}}
-                />
-              </picture>
-            </div>
-                </Hidden>
-
-         
+            <Hidden only="xs">
+              <div className="w-full sm:w-1/2 p-6">
+                <picture
+                  className="relative block w-full h-0 pb  overflow-hidden"
+                  style={{ paddingTop: "75%" }}
+                >
+                  <img
+                    src={Digi}
+                    alt=""
+                    className="absolute inset-0 w-full h-full object-cover"
+                    style={{
+                      width: "20em",
+                      height: "20em",
+                      marginLeft: "10em",
+                    }}
+                  />
+                </picture>
+              </div>
+            </Hidden>
+            <Hidden only="lg">
+              <div className="w-full sm:w-1/2 p-6">
+                <picture
+                  className="relative block w-full h-0 pb  overflow-hidden"
+                  style={{ paddingTop: "75%" }}
+                >
+                  <img
+                    src={Digi}
+                    alt=""
+                    className="absolute inset-0 w-full h-full object-cover"
+                    style={{ width: "20em", height: "20em" }}
+                  />
+                </picture>
+              </div>
+            </Hidden>
           </div>
-          
         </div>
       </section>
     </div>

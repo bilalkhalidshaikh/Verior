@@ -37,7 +37,7 @@ const gridExamplesPage = () => {
             color: "#F2B138",
             fontFamily: "League Spartan Bold",
             fontSize: "28pt",
-            textAlign:"center"
+            textAlign: "center",
           }}
         >
           COMPANIES WE HAVE WORKED WITH
@@ -49,10 +49,10 @@ const gridExamplesPage = () => {
             color: "#F2B138",
             fontFamily: "League Spartan Bold",
             fontSize: "16pt",
-            textAlign:"center"
+            textAlign: "center",
           }}
         >
-         COMPANIES WE HAVE WORKED WITH
+          COMPANIES WE HAVE WORKED WITH
         </h1>
       </Hidden>
       <MDBRow>

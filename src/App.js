@@ -1,5 +1,4 @@
 import "./App.css";
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   AppBar,
   Hero,
@@ -12,12 +11,11 @@ import {
   Feedback,
 } from "./Components";
 
-
 function App() {
   return (
     <div className="App">
       <AppBar />
-       <Hero />
+      <Hero />
       <CardSection />
       <WhatWeDo />
       <OurTeam />

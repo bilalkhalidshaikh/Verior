@@ -1,12 +1,12 @@
 @import url("https://allfont.net/allfont.css?fonts=league-spartan");
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
 
 html {
   scroll-behavior: smooth;
 }
 .hero {
   position: relative;
-  background: #003F63;
+  background: #003f63;
   height: 70px;
   width: auto;
   border-bottom-right-radius: 49%;
@@ -19,7 +19,7 @@ html {
   background-attachment: scroll;
 }
 .our-team {
-  background: linear-gradient(90deg, #003F63 0%, #003F63 100%);
+  background: linear-gradient(90deg, #003f63 0%, #003f63 100%);
   color: #eee !important;
   text-align: justify;
 }

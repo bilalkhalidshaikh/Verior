@@ -5,9 +5,6 @@ import { Link } from "react-scroll";
 
 export default function Hero() {
   return (
-    // <div className="pt-36" style={{backgroundColor: "#003F63"}}>
-    //   <div class="pt-24 container hero " id="hero">
-    // <div className="pt-32 align-middle items-center " style={{backgroundColor: "#003F63"}}>
     <div style={{ backgroundColor: "#003F63" }}>
       <Hidden only="xs">
         <div
@@ -89,7 +86,7 @@ export default function Hero() {
         </div>
       </Hidden>
 
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ccc"
           fill-opacity="1"
